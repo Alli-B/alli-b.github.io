@@ -1,0 +1,87 @@
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+
+  background-size: contain;
+  
+  background: url(img/gold.jpg);
+}
+
+.box-img{
+  border-radius: 20%;
+  width: 180px;
+  height: 200px;
+}
+
+.wrapper {
+  background: rgba(0, 0, 0, 0.7);
+  max-width: 70%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  /*height: 80%;*/
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.left, .right {
+   
+  margin: 5px;
+  max-width: 200%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left {
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture {
+  border-radius: 30%;
+}
+.textbox{
+  width: 70%;
+ 
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.textbox textarea{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 70%;
+  background: none;
+  border: 2px solid #4caf50;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  }
